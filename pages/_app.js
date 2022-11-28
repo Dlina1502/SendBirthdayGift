@@ -1,7 +1,14 @@
 import '../styles/globals.css'
+import DataGridDemo from './components/dataGridPage'
+import Home from './components/home'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp() {
+  return(
+    <>
+      <Home />
+      <DataGridDemo />
+    </>
+  ); 
 }
 
 export default MyApp
